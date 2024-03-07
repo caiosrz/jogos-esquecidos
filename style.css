@@ -1,0 +1,81 @@
+body {
+    background-color: #222;
+    margin: 0;
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.topic {
+    color: #ffcc29;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+    margin: 20px 0;
+    border-radius: 10px; /* Adicionando bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra sutil */
+}
+
+/* Estilizando o título h1 dentro da div "Jogos Esquecidos" */
+.topic h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: "Kode Mono", monospace;
+    text-transform: uppercase; /* Transformando o texto em maiúsculas */
+}
+
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-card {
+    width: 200px; /* ou outro tamanho desejado */
+    margin: 1vh;
+    color: rgb(0, 255, 60);
+    font-family: "Kode Mono", monospace;
+    font-size: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 255, 60, 0.3); /* Destaque sutil */
+}
+
+.linktogame {
+    color: white;
+    font-size: 16px; /* Ajuste conforme necessário */
+    padding: 1vh;
+    text-decoration: none;
+}
+
+.linktogame:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para a barra de rolagem */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Cor de fundo da barra de rolagem */
+body::-webkit-scrollbar-track {
+    background: #333;
+}
+
+/* Cor do "rastro" da barra de rolagem */
+body::-webkit-scrollbar-thumb {
+    background-color: #059300;
+    border-radius: 6px;
+    border: 3px solid #333;
+}
+
+/* Estilos quando passa o mouse sobre a barra de rolagem */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #860000;
+}
